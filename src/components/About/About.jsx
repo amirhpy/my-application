@@ -1,6 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
+// PDF
+import resume from '../../assets/pdf/Resume-amir.pdf'
+
 const About = () => {
     const { t } = useTranslation()
     return (
@@ -12,8 +15,8 @@ const About = () => {
                 </p>
                 <p className='leading-7 pb-12 text-[15px] sm:text-[16px] text-center'>{t('aboutMe')}</p>
                 <div className='w-full flex flex-col sm:flex-row justify-center items-center'>
-                    <a className='border-[3px] rounded-[8px] transition-colors duration-300 text-blue font-black border-blue py-[9px] w-full sm:w-36 text-center hover:bg-blue hover:text-blue-dark mb-5 sm:mb-0 sm:mr-5' href=''>{t('downloadResume')}</a>
-                    <a className='border-[3px] rounded-[8px] transition-colors duration-300 text-blue font-black border-blue py-[9px] w-full sm:w-36 text-center hover:bg-blue hover:text-blue-dark' href=''>{t('contactMe')}</a>
+                    <a className='border-[3px] rounded-[8px] transition-colors duration-300 text-blue font-black border-blue py-[9px] w-full sm:w-36 text-center hover:bg-blue hover:text-blue-dark mb-5 sm:mb-0 sm:mr-5' href={resume} download>{t('downloadResume')}</a>
+                    <a className='border-[3px] rounded-[8px] transition-colors duration-300 text-blue font-black border-blue py-[9px] w-full sm:w-36 text-center hover:bg-blue hover:text-blue-dark' href='tel:09362931516'>{t('contactMe')}</a>
                 </div>
             </div>
         </div>
