@@ -10,7 +10,7 @@ import {
 
 const Social = () => {
     return (
-        <div className='absolute bottom-20 flex items-center'>
+        <div className='left-0 bottom-0 absolute sm:bottom-10 sm:left-10 flex items-center'>
             <a href='https://www.linkedin.com/in/amirhosseinpour/' className='group border-2 transition-colors duration-300 border-blue p-2 rounded-full hover:bg-blue'>
                 <SlSocialLinkedin className='w-5 h-5 text-blue group-hover:text-blue-dark' />
             </a>

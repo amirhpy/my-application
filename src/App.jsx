@@ -7,12 +7,11 @@ import Social from './components/Social/Social';
 
 const App = () => {
     return (
-        <div className='bg-background w-full h-screen relative'>
-            <div className='w-10/12 m-auto'>
-                <Header />
-                <About />
-                <Social />
-            </div>
+        <div className='bg-background w-full h-screen flex flex-col items-center justify-center relative'>
+            <Header />
+            <About />
+            <Social />
+            {/* <div className='w-10/12 h-screen m-auto '></div> */}
         </div>
     );
 };

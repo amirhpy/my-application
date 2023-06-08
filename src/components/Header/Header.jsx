@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 const Header = () => {
     const { t } = useTranslation()
     return (
-        <div className='flex items-center justify-between font-bold text-right py-4'>
+        <div className='w-10/12 flex absolute top-0 items-center justify-between font-bold text-right py-4'>
             <select onChange={(e) => i18n.changeLanguage(e.target.value)} value={i18n.language} className='outline-none border-2 px-2 border-blue rounded-[5px] bg-background text-blue'>
                 <option value='de'>Germany</option>
                 <option value='fa'>Persian</option>
