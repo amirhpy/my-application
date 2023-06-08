@@ -2,7 +2,7 @@ const de = {
     header: 'Amir Front-End',
     title: 'Hallo, ich bin Amirhossein Hosinpour',
     job: 'Front-End Developer',
-    aboutMe: 'Ich beherrsche die Konzepte von React und kann verschiedene Single-Page- und Multi-Page-Projekte starten. Ich bin in der Lage, Tools wie Redux zu verwenden und bin vertraut mit den Konzepten von JavaScript, HTML und CSS. Ich kann verschiedene Abschnitte auf Seiten erstellen und das Erscheinungsbild und die Benutzeroberfläche anpassen. Ich habe Erfahrung im Erstellen responsiver Designs und kann eine Verbindung zwischen Backend und Frontend herstellen.',
+    aboutMe: 'Kreativer Frontend-Entwickler auf der Suche nach neuen Möglichkeiten in der Webentwicklung. Mein Fachgebiet liegt in der Benutzeroberflächenentwicklung, wo ich mithilfe von (HTML5, CSS3, JavaScript, React) optimale und ansprechende Benutzererfahrungen schaffe. Zu meinen Fähigkeiten gehören responsive Design, die Erstellung von Einzel- und Mehrseiten-Websites usw. Dank meiner Leidenschaft für kontinuierliches Lernen, halte ich mich stets über die neuesten Technologien und Entwicklungsmethoden auf dem Laufenden. Ich bin sowohl an Teamarbeit als auch an freiberuflicher Tätigkeit interessiert. Kontaktieren Sie mich für weitere Informationen.',
     downloadResume: 'mein Lebenslauf',
     contactMe: 'Kontaktiere mich'
 }
